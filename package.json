@@ -1,0 +1,14 @@
+{
+  "name": "jspg",
+  "version": "1.0.0",
+  "description": "JavaScript playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Alex Chao <alex.h.chao@gmail.com> (https://alexchao.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}

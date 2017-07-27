@@ -44,4 +44,13 @@ const merge = function(nums, lo, mid, hi) {
 };
 
 
+const timedSort = function(nums, sortFn) {
+  let startTime = new Date().getTime();
+  sortFn(nums);
+  let endTime = new Date().getTime();
+  console.log('duration', endTime - startTime);
+};
+
+
 exports.mergeSort = mergeSort;
+exports.timedSort = timedSort;

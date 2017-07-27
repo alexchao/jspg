@@ -1,5 +1,5 @@
 const assert = require('assert');
-const getOffsetStrings = require('./index').getOffsetStrings;
+const getOffsetStrings = require('../offset').getOffsetStrings;
 
 
 describe('getOffsetStrings()', function() {

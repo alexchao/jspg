@@ -38,11 +38,6 @@ const merge = function(nums, lo, mid, hi) {
     hiIdx++;
   }
 
-  /*
-  mergedNums = mergedNums.concat(nums.slice(loIdx, mid));
-  mergedNums = mergedNums.concat(nums.slice(hiIdx, hi + 1));
-  */
-
   for (let i = 0; i < mergedNums.length; i++) {
     nums[lo + i] = mergedNums[i];
   }

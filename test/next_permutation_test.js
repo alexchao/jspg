@@ -24,4 +24,7 @@ describe('getNextPermutation()', function() {
   it('should return [6,7,2,4,4] for [6,4,7,4,2]', function() {
     assert.deepEqual(getNextPermutation([6,4,7,4,2]), [6,7,2,4,4]);
   });
+  it('should return [4,2,3,5,5] for [3,5,5,4,2]', function() {
+    assert.deepEqual(getNextPermutation([3,5,5,4,2]), [4,2,3,5,5]);
+  });
 });
